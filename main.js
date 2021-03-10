@@ -4,7 +4,7 @@ const hiddenBar = document.querySelector('.hiddenBar')
 
 moreMenu.addEventListener('click', () => {
     if(!hiddenBar.matches('.open')){
-    hiddenBar.classList.add('open'); // javascript 연산이 더 빨리 전달되고, css가 더 나중에 전달됨. 문제..
+    hiddenBar.classList.add('open'); 
     rotateButton('90deg');
 }
     else if(hiddenBar.matches('.open')){
